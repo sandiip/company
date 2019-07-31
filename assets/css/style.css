@@ -2163,7 +2163,14 @@ aside.default-aside .sidebar .widget-tags a:hover {
   background: #4886FF;
   color: #fff;
 }
-
+.contact-section-row, .profileName, .carrerform {
+  width: 100%;
+}
+.row.carrerform {
+  padding: 30px;
+  box-shadow: 0 0 8px -5px;
+  border-radius: 0 30px 0 30px;
+}
 /* 
 ---------------------------------------------
 Partner
