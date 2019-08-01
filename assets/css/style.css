@@ -254,7 +254,7 @@ global styles
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: linear-gradient(127deg, #c0cec0, #24CDFF 91%);
+  background-image: linear-gradient(127deg, #5d00ec, #24CDFF 91%);
   z-index: 2;
   opacity: 0.85;
 }
@@ -592,7 +592,9 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 40%;
+  width: 88%;
+  position: relative;
+  top: -14px;
 }
 
 .header-area .main-nav .dark-logo {
@@ -881,7 +883,7 @@ welcome area
   width: 100%;
   height: 100%;
   opacity: 0.85;
-  background-image: linear-gradient(127deg, #1b0a35, #24CDFF 91%);
+  background-image: linear-gradient(127deg, #5d00ec, #24CDFF 91%);
   z-index: 3;
 }
 
@@ -957,7 +959,22 @@ welcome area
 .welcome-area .welcome-content .apps .app-item .icon {
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
 }
-
+.contacticon{
+  position: absolute;
+  width: 13%;
+  left: -59px;
+  top: -1px;
+}
+.contactDetails{
+  position: relative;
+  left: 8%;
+  width: 110%;
+  top: 70px;
+}
+.mapRow{
+  position: relative;
+  top: 90px;  
+}
 @media (max-width: 991px) {
   .welcome-area .welcome-content {
     position: relative;
